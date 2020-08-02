@@ -7,24 +7,36 @@
 		</head>
 		<body>
 			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/chapter2">Chapter 2</a></li>
-                                <li><a href="/chapter4">Chapter 4</a></li>
-                                <li><a href="/chapter5">Chapter 5</a></li>
-                                <li><a href="/chapter6">Chapter 6</a></li>
-                                <li><a href="/chapter7">Chapter 7</a></li>
-                                <li><a href="/chapter8">Chapter 8</a></li>
-                                <li><a href="/chapter9">Chapter 9</a></li>
-                                <li><a href="/chapter12">Chapter 12</a></li>
-                                <li><a href="/chapter13">Chapter 13</a></li>
-                                <li><a href="/chapter14">Chapter 14</a></li>
-                                <li><a href="/chapter15">Chapter 15</a></li>
-	    		</ul>
-			</nav>
+				
+<h1>Companion website for the book 'Changing Connectomes'</h1>				
+				<table style="width:100%">
+					<tbody style="text-align:top">
+				  <tr>
+				    <td style="white-space:nowrap;width:25%;vertical-align:top">
+	
+	    		
+<a href="/">Home</a><br>
+<a href="/chapter2" title="Features of Complex Networks">Chapter 2</a><br>
+<a href="/chapter4" title="Organization of Neural Systems">Chapter 4</a><br>
+<a href="/chapter5" title="Brain Development">Chapter 5</a><br>
+<a href="/chapter6" title="Layer Formation">Chapter 6</a><br>
+<a href="/chapter7" title="Axonal Growth">Chapter 7</a><br>
+<a href="/chapter8" title="Formation of Hubs">Chapter 8</a><br>
+<a href="/chapter9" title="Module Formation">Chapter 9</a><br>
+<a href="/chapter11" title="Development and Ageing">Chapter 11</a><br>
+<a href="/chapter12" title="Neurodevelopmental Disorders">Chapter 12</a><br>
+<a href="/chapter13" title="Neurodegenerative Disorders">Chapter 13</a><br>
+<a href="/chapter14" title="Recovery from Injury">Chapter 14</a><br>
+<a href="/chapter15" title="Brain Stimulation Effects">Chapter 15</a><br>			
+		</td>
+		<td style="width:50%">
+				
+			
 			<div class="container">
 			
-			<h3 id="modelling-neuron-morphology">Modelling neuron morphology</h3>
+			<h2 id="chapter-7-axonal-growth">Chapter 7: Axonal Growth</h2>
+
+<h3 id="modelling-neuron-morphology">Modelling neuron morphology</h3>
 <p>Experimental data about neuron morphology in many species is available through the <a href="www.neuromorpho.org">NeuroMorpho</a> database [1].</p>
 
 <p><a href="http://www.netmorph.org/" target="_blank" rel="noopener noreferrer">NetMorph</a> is a C++ environment to simulate neuronal morphogenesis from the perspective of the individual growth cone within axons or dendrites, covering elongation, branching and turning.In this way, neurons with realistic axonal and dendritic morphologies, including neurite curvature, can be generated. Synapses are formed as neurons grow out and axonal and dendritic branches come in close proximity of each other [2]. Compared to CX3D, NetMorph is computationally less expensive, making it useful for theoretical studies and simulating larger networks; on the other hand, NetMorprh is less flexible than CX3D [3].</p>
@@ -37,25 +49,42 @@
 <p>All previous routines assume that axons grow in a straight line. To test the scenario that axons randomly change direction, we can look at the effect that this would have on overall axon lengths and axon trajectories. Code for modelling curved axonal pathways can be found <a href="axon_growth.m">here</a> and is described in [6].</p>
 
 <h3 id="references">References</h3>
-<p>[1] Ascoli, G. A., D. E. Donohue and M. Halavi (2007). NeuroMorpho.Org: A central resource for neuronal morphologies. J Neurosci 27(35): 9247-9251.</p>
+<p>[1] Ascoli, G. A., D. E. Donohue and M. Halavi (2007). NeuroMorpho.Org: A central resource for neuronal morphologies. <a href="https://doi.org/10.1523/JNEUROSCI.2055-07.2007" target="_blank" rel="noopener noreferrer">J Neurosci 27(35): 9247-9251</a></p>
 
-<p>[2] Koene, R. A., B. Tijms, P. van Hees, F. Postma, A. de Ridder, G. J. Rammers, J. van Pelt and A. van Ooyen (2009). NETMORPH: a framework for the stochastic generation of large scale neuronal networks with realistic neuron morphologies. Neuroinformatics 7(3): 195-210.</p>
+<p>[2] Koene, R. A., B. Tijms, P. van Hees, F. Postma, A. de Ridder, G. J. Rammers, J. van Pelt and A. van Ooyen (2009). NETMORPH: a framework for the stochastic generation of large scale neuronal networks with realistic neuron morphologies. <a href="https://doi.org/10.1007/s12021-009-9052-3" target="_blank" rel="noopener noreferrer">Neuroinformatics 7(3): 195-210</a></p>
 
-<p>[3] Acimovic, J., T. Maki-Marttunen, R. Havela, H. Teppola and M. L. Linne (2011). Modeling of Neuronal Growth In Vitro: Comparison of Simulation Tools NETMORPH and CX3D. EURASIP J Bioinform Syst Biol 2011: 616382.</p>
+<p>[3] Acimovic, J., T. Maki-Marttunen, R. Havela, H. Teppola and M. L. Linne (2011). Modeling of Neuronal Growth In Vitro: Comparison of Simulation Tools NETMORPH and CX3D. <a href="https://doi.org/10.1155/2011/616382" target="_blank" rel="noopener noreferrer">EURASIP J Bioinform Syst Biol 2011: 616382</a></p>
 
-<p>[4] Kaiser, M., and C. C. Hilgetag. 2004. Spatial growth of real-world networks. Phys Rev E Stat Nonlin Soft Matter Phys 69 (3 Pt 2): 036103</p>
+<p>[4] Kaiser, M., and C. C. Hilgetag. 2004. Spatial growth of real-world networks. <a href="https://doi.org/10.1103/PhysRevE.69.036103" target="_blank" rel="noopener noreferrer">Phys Rev E Stat Nonlin Soft Matter Phys 69 (3 Pt 2): 036103</a></p>
 
-<p>[5] Kaiser, M., C. C. Hilgetag, and A. van Ooyen. 2009. A simple rule for axon outgrowth and synaptic competition generates realistic connection lengths and filling fractions. Cereb Cortex 19 (12): 3001-10.</p>
+<p>[5] Kaiser, M., C. C. Hilgetag, and A. van Ooyen. 2009. A simple rule for axon outgrowth and synaptic competition generates realistic connection lengths and filling fractions. <a href="https://doi.org/10.1093/cercor/bhp071" target="_blank" rel="noopener noreferrer">Cereb Cortex 19 (12): 3001-10</a></p>
 
-<p>[6] Kaiser, M. 2017. Mechanisms of Connectome Development. Trends Cogn Sci 21 (9): 703-717.</p>
+<p>[6] Kaiser, M. 2017. Mechanisms of Connectome Development. <a href="https://doi.org/10.1016/j.tics.2017.05.010" target="_blank" rel="noopener noreferrer">Trends Cogn Sci 21 (9): 703-717</a></p>
 
 
 			
-			</div><!-- /.container -->
+			</div>
+<!-- /.container -->
+			
+		</td>
+		<td style="width:25%">
+		</td>			
+	</tr>
+  </tbody>
+</table>
+			
+			
 			<footer>
 	    		<ul>
-	        		<li><a href="https://github.com/connectomelab" target="_blank" rel="noopener noreferrer">github.com/connectomelab/ChangingConnectomes</a></li>
-				</ul>
+	        		<li>
+<a href="https://connectomelab.github.io/changingconnectomes/" target="_blank" rel="noopener noreferrer">https://connectomelab.github.io/changingconnectomes/</a>
+</li>
+					<li>
+<a href="&lt;li&gt;%0A&lt;a%20href=" https:>https://mitpress.mit.edu/books/changing-connectomes</a>
+					
+					
+				</li>
+</ul>
 			</footer>
-		</body>
+		</nav></body>
 	</html>
